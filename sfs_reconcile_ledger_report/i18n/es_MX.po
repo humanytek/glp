@@ -1,0 +1,575 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# 	* sfs_reconcile_ledger_report
+# sf_soluciones  <soporte@sfsoluciones.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130819-231103\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-24 10:56+0000\n"
+"PO-Revision-Date: 2014-09-25 15:46-0500\n"
+"Last-Translator: sf_soluciones  <soporte@sfsoluciones.com>\n"
+"Language-Team: Español; Castellano <soporte@sfsoluciones.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{ref}"
+msgstr "$F{ref}"
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,period_from_id:0
+msgid "Period From"
+msgstr "Periodo Del"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{ref}"
+msgstr "$P{ref}"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:69
+#, python-format
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{name}"
+msgstr "$F{Nombre}"
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,filter:0
+msgid "Filter By"
+msgstr "Filtrar por"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{acc_rec}"
+msgstr "$P{acc_rec}"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:54
+#, python-format
+msgid "Entry Label"
+msgstr "# del documento"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "jnl_ref"
+msgstr "Diario_ref"
+
+#. module: sfs_reconcile_ledger_report
+#: selection:reconcile.ledger.report,way:0
+msgid "Supplier Payments"
+msgstr "Pagos a Proveedores"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:53
+#, python-format
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "debit"
+msgstr "Cargo"
+
+#. module: sfs_reconcile_ledger_report
+#: model:ir.actions.act_window,name:sfs_reconcile_ledger_report.action_reconcile_ledger_report_menu
+#: model:ir.actions.report.xml,name:sfs_reconcile_ledger_report.report_jasper_reconcile_jasper_report
+#: view:reconcile.ledger.report:0
+msgid "Reconcile Ledger Report"
+msgstr "Reporte de conciliación"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "tot_balance"
+msgstr "tot_saldo"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{journal}"
+msgstr "$F{Diario}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{period_from}"
+msgstr "$P{Periodo_Del}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{balance}"
+msgstr "$P{Saldo}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{fiscal_year}"
+msgstr "$P{Año_Fiscal}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "doc_balance"
+msgstr "doc_Saldo"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:64
+#, python-format
+msgid "Filters By"
+msgstr "Filtros Por"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:59
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:66
+#, python-format
+msgid "Document Balance"
+msgstr "Balance del documento"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:55
+#, python-format
+msgid "Reconcile"
+msgstr "Ref de conciliación"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:68
+#, python-format
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{period_to}"
+msgstr "$P{Periodo de}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{tot_balance} + \" :\""
+msgstr "$P{tot_Saldo} + \" :\""
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,period_to_id:0
+msgid "Period To"
+msgstr "Período Para"
+
+#. module: sfs_reconcile_ledger_report
+#: model:ir.model,name:sfs_reconcile_ledger_report.model_reconcile_ledger_report
+msgid "General Ledger Report"
+msgstr "Informe del libro mayor"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{credit}"
+msgstr "$F{Credito}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{account}"
+msgstr "$F{Cuenta}"
+
+#. module: sfs_reconcile_ledger_report
+#: selection:reconcile.ledger.report,filter:0
+msgid "None"
+msgstr "Ninguno"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{jnl_ref}"
+msgstr "$P{Diario_ref}"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:56
+#, python-format
+msgid "Debit"
+msgstr "Cargo"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0
+msgid "Print"
+msgstr "Imprimir"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{reconcile}"
+msgstr "$F{Conciliar}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "new java.util.Date()"
+msgstr "new java.util.Date()"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{debit}"
+msgstr "$P{Cargo}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{company}"
+msgstr "$P{Empresa}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{partner_ledger}"
+msgstr "$P{Cliente_ledger}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "end_period"
+msgstr "Periodo_final"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "ref"
+msgstr "ref"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{date}"
+msgstr "$F{Fecha}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{account}"
+msgstr "$P{Cuenta}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "journal"
+msgstr "Diario"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:73
+#, python-format
+msgid "End Period"
+msgstr "Período Final"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "entry_label"
+msgstr "Etiqueta_Entrada"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{partner_name}"
+msgstr "$P{Nombre_Cliente}"
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,date_to:0
+msgid "Date To"
+msgstr "Fecha Para"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "invoice_id"
+msgstr "id_Factura"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:60
+#, python-format
+msgid "Total Balance"
+msgstr "Saldo Total"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "credit"
+msgstr "Credito"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "JRNL"
+msgstr "Diario"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:72
+#, python-format
+msgid "Start Date"
+msgstr "Fecha inicial"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0
+msgid "or"
+msgstr "o"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "target_move"
+msgstr "Mueve_Objetivo"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "fiscal_yr"
+msgstr "A_yr"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "fiscal_year"
+msgstr "Año Fiscal"
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,date_from:0
+msgid "Date From"
+msgstr "Fecha del"
+
+#. module: sfs_reconcile_ledger_report
+#: field:reconcile.ledger.report,way:0
+msgid "Way"
+msgstr "Manera"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{doc_balance} + \" :\""
+msgstr "$P{doc_Saldo} + \" :\""
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid ""
+"( $P{way} == \"debit_to_credit\" ? $V{debit_sum} - $V{credit_sum} : "
+"$V{credit_sum} - $V{debit_sum} )"
+msgstr ""
+"( $P{way} == \"Cargo de Credito\" ? $V{debit_sum} - $V{credit_sum} : "
+"$V{credit_sum} - $V{debit_sum} )"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:61
+#, python-format
+msgid "Reconcile Ledger"
+msgstr "Conciliar Ledger"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{invoice_id}"
+msgstr "$F{id_Factura}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "name"
+msgstr "Nombre"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "period_from"
+msgstr "Periodo_de"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{date}"
+msgstr "$P{Fecha}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "way"
+msgstr "Manera"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:52
+#: view:reconcile.ledger.report:0 selection:reconcile.ledger.report,filter:0
+#, python-format
+msgid "Date"
+msgstr "Fecha"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$F{debit}"
+msgstr "$F{Cargo}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "start_period"
+msgstr "Periodo_Inicial"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "company"
+msgstr "Empresa"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0
+msgid "Filter"
+msgstr "Filtro"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:57
+#, python-format
+msgid "Credit"
+msgstr "Abono"
+
+#. module: sfs_reconcile_ledger_report
+#: selection:reconcile.ledger.report,way:0
+msgid "Customer Payments"
+msgstr "De clientes"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:62
+#, python-format
+msgid "Accounts Receivable"
+msgstr "Cuentas por cobrar"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:58
+#, python-format
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "account"
+msgstr "Cuenta"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "sum_balance"
+msgstr "sum_balance"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0 selection:reconcile.ledger.report,filter:0
+msgid "Period"
+msgstr "Período"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "balance"
+msgstr "Saldo"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{filter_by}"
+msgstr "$P{Filtrar_por}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$V{PAGE_NUMBER}"
+msgstr "$V{NUmero_pagina}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{credit}"
+msgstr "$P{Credito}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{start_period}"
+msgstr "$P{Periodo_Inicial}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "reconcile"
+msgstr "Conciliar"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "period_to"
+msgstr "Periodo_de"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "filter_by"
+msgstr "Filtrar_por"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "partner"
+msgstr "Cliente"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "acc_rec"
+msgstr "acc_rec"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{end_period}"
+msgstr "$P{Periodo_final}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "partner_name"
+msgstr "Nombre_Cliente"
+
+#. module: sfs_reconcile_ledger_report
+#: view:reconcile.ledger.report:0 field:reconcile.ledger.report,journal_ids:0
+msgid "Journal"
+msgstr "Diario"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$V{total_sum}"
+msgstr "$V{total_sum}"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:65
+#, python-format
+msgid "Target Moves"
+msgstr "Mueve objetivo"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:67
+#: report:reconcile.ledger.jasper.report:0
+#, python-format
+msgid "Posted"
+msgstr "Publicado"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:69
+#, python-format
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:74
+#, python-format
+msgid "End Date"
+msgstr "Fecha final"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:71
+#, python-format
+msgid "Start Period"
+msgstr "Periodo Inicial"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{partner}"
+msgstr "$P{Cliente}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "partner_ledger"
+msgstr "Cliente_ledger"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{target_move}"
+msgstr "$P{Mueve_Objetivo}"
+
+#. module: sfs_reconcile_ledger_report
+#: code:addons/sfs_reconcile_ledger_report/report/ledger_jasper_report.py:63
+#: field:reconcile.ledger.report,fiscalyear_id:0
+#, python-format
+msgid "Fiscal Year"
+msgstr "Año Fiscal"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "date"
+msgstr "Fecha"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{fiscal_yr}"
+msgstr "$P{Año_Fiscal}"
+
+#. module: sfs_reconcile_ledger_report
+#: report:reconcile.ledger.jasper.report:0
+msgid "$P{entry_label}"
+msgstr "$P{Etiqueta_Entrada}"

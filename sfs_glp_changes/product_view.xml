@@ -1,0 +1,39 @@
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="product_product_tree_view_inherit">
+            <field name="name">product.product.form.tree</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='qty_available']" position="replace"/>
+            	<xpath expr="//field[@name='virtual_available']" position="replace"/>
+            	
+            	<xpath expr="//field[@name='uom_id']" position="after">
+            	
+            		<field name="qty_available" sum="Total Quantity"/>
+            		<field name="virtual_available" sum="Total Virtual Quantity"/>
+            		
+            	</xpath>
+            	<xpath expr="//field[@name='lst_price']" position="replace">
+            	
+            		
+            		<field name="standard_price1" string="Cost Price"  invisible="0" avg="Duration"/>	
+            		<field name="total_amount"  sum="Total Cost"/>
+            	</xpath>
+            	
+            </field>
+        </record>
+        
+        <!-- <record model="ir.ui.view" id="product_normal_form_view_inherit">
+            <field name="name">product.product.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_normal_form_view"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//field[@name='name']" position="after">
+            		<button name="qty_set" type="object" string="Set"/>
+            	</xpath>
+            </field>
+        </record>
+     -->
+	</data>
+</openerp>

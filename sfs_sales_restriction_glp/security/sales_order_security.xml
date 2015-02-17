@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data noupdate="1">
+    	<record id="group_sale_confirm" context="{'noadmin':'True'}" model="res.groups">
+     	   <field name="name">Confirm order</field>
+     	   <field name="users" eval="[(4, ref('base.user_root'))]"/>
+   		</record>
+   		
+   		<record id="group_sale_stock_zero_users" context="{'noadmin':'True'}" model="res.groups">
+     	   <field name="name">Approve Sale Order with real stock 0</field>
+     	  <!--  <field name="users" eval="[(4, ref('base.user_root'))]"/> -->
+   		</record>
+	</data>
+</openerp>
+    

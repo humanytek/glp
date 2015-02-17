@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+gamification_goal_report_anybody,"Goal Anybody",model_gamification_goal_report,,1,1,0,0
+gamification_goal_report_manager,"Goal Manager",model_gamification_goal_report,gamification.group_goal_manager,1,1,1,1

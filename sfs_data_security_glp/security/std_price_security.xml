@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<openerp>
+    <data noupdate="1">
+	    <record id="group_std_price_security" model="res.groups">
+	        <field name="name">Usuarios no restringidos</field>
+	        <field name="category_id" ref="base.module_category_hidden"/>
+	    </record>
+    </data>
+</openerp>

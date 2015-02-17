@@ -1,0 +1,37 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* sfs_glp_changes
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0-20130819-231103\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-10 07:44+0000\n"
+"PO-Revision-Date: 2014-06-10 07:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sfs_glp_changes
+#: model:ir.model,name:sfs_glp_changes.model_res_partner
+msgid "Partner"
+msgstr "pareja"
+
+#. module: sfs_glp_changes
+#: field:res.partner,bank_reference:0
+msgid "Bank Reference"
+msgstr "Referencia Bancaria"
+
+#. module: sfs_glp_changes
+#: field:account.invoice,qty_uos:0
+msgid "Quantity of product"
+msgstr "Cantidad de producto"
+
+#. module: sfs_glp_changes
+#: model:ir.model,name:sfs_glp_changes.model_account_invoice
+msgid "Invoice"
+msgstr "factura"
+

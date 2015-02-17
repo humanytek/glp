@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+        <record id="sfs_view_stock_product_form_inherit" model="ir.ui.view">
+            <field name="name">sfs.view.product.stock.form.inherit</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="stock.view_product_standard_price_form"/>
+            <field name="arch" type="xml">
+            	<xpath expr="//label[@for='standard_price']" position="attributes">
+            		<attribute name="groups">sfs_data_security_glp.group_std_price_security</attribute>
+            	</xpath>
+            	<xpath expr="//notebook/page[@string='Procurements']/group/group/div"  position="attributes">
+            		<attribute name="groups">sfs_data_security_glp.group_std_price_security</attribute>
+            	</xpath>
+            </field>
+        </record>
+    </data>
+</openerp>

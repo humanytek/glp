@@ -1,0 +1,6 @@
+V1.0 By Subhin P V
+On 31 July 2014
+	migrated from SFS 6.0. Added a functionality of updating false in the fields product_id, Quantity and description in 
+	the sale order line when warning is shown for "not enough stock". This makes the user unable to save the 
+	sale order line once the warning is shown  
+	
